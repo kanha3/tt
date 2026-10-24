@@ -1,0 +1,146 @@
+ body {
+      margin: 2;
+      font-family: "Poppins", sans-serif;
+      background-color: #fdf8f4;
+      color: #2e2e2e;
+    }
+
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about-img {
+      flex: 1 1 400px;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .about-img img {
+      width: 90%;
+      max-width: 480px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+
+    .about-content {
+      flex: 1 1 400px;
+      padding: 20px 40px;
+    }
+
+    .about-content h2 {
+      font-size: 32px;
+      margin-bottom: 16px;
+      color: #a63a50; /* classy wine tone */
+      letter-spacing: -0.5px;
+    }
+
+    .about-content p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .about-content h3 {
+      margin-bottom: 8px;
+      color: #b85c38;
+    }
+
+    .see-more {
+      display: inline-block;
+      padding: 10px 24px;
+      text-decoration: none;
+      color: #a63a50;
+      border: 2px solid #a63a50;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .see-more:hover {
+      background-color: #a63a50;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-content {
+        padding: 20px;
+      }
+    }
+     body{
+        margin: 2;
+        /* background-color: bisque; */
+    }
+    nav{
+        top: 0;
+        width: 100%;
+        padding:0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family:Monotype Corsiva;
+        font-size: 18px;
+        text-align: center;
+      
+    }
+    .logo{
+         width: 115px;
+         height: auto;
+    }
+    
+   .login{
+    text-decoration: none;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    color: black;
+    
+   }
+   .download{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+   }
+
+   .Cocktail{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+   }
+   .Wine{
+    padding:10px;
+    text-decoration: none;
+    color: black;
+   }
+   .Mocktail{
+    text-decoration: none;
+    color: black;
+   }
+   .left{
+    font-family:Monotype Corsiva ;
+   }
+    .social a {
+            margin: 0 10px;
+            display: inline-block;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .social a img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .social a:hover img {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+        }
